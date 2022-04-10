@@ -8,19 +8,17 @@ import java.io.PrintWriter;
 public class FirstServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-response.setContentType("text/html");
+//response.setContentType("text/html");
         PrintWriter writer = response.getWriter();
-        try{
-            writer.println("<h1> Hello everybody from my FirstServlet</h1>");
-        } catch(Exception e){
-            System.out.println("Error");
-        }finally {
-            writer.close();
-        }
-    }
-
-
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+//        try{
+//            writer.println("<h1> Hello everybody from my FirstServlet</h1>");
+//        } catch(Exception e){
+//            System.out.println("Error");
+//        }finally {
+//            writer.close();
+//        }
+        writer.println("<html>");
+        writer.println("<h1>Let's drink to love,how your eyes are shining now </h1>");
+        writer.println("</html>");
     }
 }

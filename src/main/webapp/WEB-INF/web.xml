@@ -10,6 +10,6 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>FirstServlet</servlet-name>
-    <url-pattern>/hello-everybody</url-pattern>
+    <url-pattern>/vonliner.by</url-pattern>
   </servlet-mapping>
 </web-app>
